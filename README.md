@@ -37,13 +37,24 @@ https://d1gfj90rneo89i.cloudfront.net
 # Architecture
 
 ```text
-User Browser
-      ↓
-Amazon CloudFront (CDN + HTTPS)
-      ↓
-Amazon S3 Static Website Hosting
+┌─────────────────────────────┐
+│        User Browser         │
+└─────────────┬───────────────┘
+              ↓
+┌─────────────────────────────┐
+│ Amazon CloudFront (CDN)     │
+│ HTTPS Secure Delivery       │
+└─────────────┬───────────────┘
+              ↓
+┌─────────────────────────────┐
+│ Amazon S3 Static Hosting    │
+│ Portfolio Website Files     │
+└─────────────────────────────┘
+```
 
 ---
+
+# Implementation Steps
 
 # Implementation Steps
 
