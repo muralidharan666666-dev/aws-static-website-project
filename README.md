@@ -97,25 +97,25 @@ Created CloudFront distribution for secure HTTPS access and CDN delivery.
 
 ## Live Website
 
-![Live Website](screenshots/My portfolio live website.png)
+![Live Website](screenshots/live-website.png)
 
 ---
 
 ## CloudFront Distribution
 
-![CloudFront](screenshots/Cloudfront distribution.png)
+![CloudFront](screenshots/cloudfront.png)
 
 ---
 
 ## S3 Static Hosting
 
-![S3 Hosting](screenshots/S3 static website hosting.png)
+![S3 Hosting](screenshots/s3-hosting.png)
 
 ---
 
 ## GitHub Repository
 
-![GitHub Repository](screenshots/Github repository.png)
+![GitHub Repository](screenshots/github-repo.png)
 
 ---
 
