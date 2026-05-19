@@ -34,13 +34,13 @@ https://d1gfj90rneo89i.cloudfront.net
 - Cloud deployment architecture
 
 ---
-
 # Architecture
 
+```text
 User Browser
-        ↓
+      ↓
 Amazon CloudFront (CDN + HTTPS)
-        ↓
+      ↓
 Amazon S3 Static Website Hosting
 
 ---
