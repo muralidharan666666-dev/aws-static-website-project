@@ -36,7 +36,7 @@ https://d1gfj90rneo89i.cloudfront.net
 ---
 # Architecture
 
-<img width="1536" height="1024" alt="Static website hosting on AWS architecture diagram" src="https://github.com/user-attachments/assets/85b58a5a-e8fc-4020-98bf-5be3b60d5e8b" />
+![Architecture](architecture/aws-architecture-diagram.png)
 
 
 ---
