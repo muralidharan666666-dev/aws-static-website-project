@@ -59,7 +59,10 @@ Pushed the project files to GitHub for version control. The live site stays up i
 
 ## What I Learned
 
-The part that took me longest was understanding the difference between making a bucket public versus using OAC. A lot of setups just enable public access on the bucket, which works but means anyone can hit the S3 endpoint directly and skip CloudFront entirely. The OAC approach keeps the bucket private — only CloudFront can read from it.
+Building this project made me understand how real websites actually protect their content.
+Every major website you use — Flipkart, Hotstar, Zomato — stores its images, videos and static files somewhere. That somewhere is usually a private storage bucket. You never access that bucket directly. You always go through their CDN without even knowing it. The bucket URL is never exposed. The CDN is the only door.
+Before building this I did not understand why that separation existed. Now I do. If the bucket is public anyone who finds the URL can hit it directly — bypassing the CDN, bypassing any access control, bypassing everything. OAC is what enforces that separation. The bucket stays completely private and CloudFront is the only one with permission to read from it. No matter what, every request goes through CloudFront.
+That one concept — keeping storage private and only exposing it through a controlled layer — is the foundation of how content is delivered securely on the internet.
 
 ## Screenshots
 
