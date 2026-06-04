@@ -93,15 +93,10 @@ One thing I'd do differently: use the AWS CLI to upload files instead of the con
 
 ## Author
 
-AWS re/Start Graduate
+**Muralidharan M N**
 
-AWS Certified Cloud Practitioner
-
-Tirunelveli, Tamil Nadu — Open to Relocation & Remote
-
-Actively looking for Cloud Engineer | DevOps Engineer | AWS Support Engineer roles
+AWS Certified Cloud Practitioner | AWS re/Start Graduate
 
 LinkedIn: https://www.linkedin.com/in/muralidharan-m-n-78a2522b8
 
 GitHub: https://github.com/muralidharan666666-dev
-
