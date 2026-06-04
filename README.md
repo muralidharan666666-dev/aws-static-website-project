@@ -59,10 +59,10 @@ Pushed the project files to GitHub for version control. The live site stays up i
 
 ## What I Learned
 
-Building this project made me understand how real websites actually protect their content.
+**Building this project made me understand how real websites actually protect their content.
 Every major website we use — Flipkart, Hotstar, Zomato — stores its images, videos and static files somewhere. That somewhere is usually a private storage bucket. we never access that bucket directly. We always go through their CDN without even knowing it. The bucket URL is never exposed. The CDN is the only door.
 Before building this I did not understand why that separation existed. Now I do. If the bucket is public anyone who finds the URL can hit it directly — bypassing the CDN, bypassing any access control, bypassing everything. OAC is what enforces that separation. The bucket stays completely private and CloudFront is the only one with permission to read from it. No matter what, every request goes through CloudFront.
-That one concept — keeping storage private and only exposing it through a controlled layer — is the foundation of how content is delivered securely on the internet.
+That one concept — keeping storage private and only exposing it through a controlled layer — is the foundation of how content is delivered securely on the internet.**
 
 ## Screenshots
 
