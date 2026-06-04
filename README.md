@@ -59,8 +59,7 @@ Pushed the project files to GitHub for version control. The live site stays up i
 
 ## What I Learned
 
-The part that took me longest was understanding the difference between making a bucket public versus using OAC. A lot of older tutorials just enable public access on the bucket, which works but means anyone can hit the S3 endpoint directly and skip CloudFront entirely. The OAC approach keeps the bucket private — only CloudFront can read from it.
----
+The part that took me longest was understanding the difference between making a bucket public versus using OAC. A lot of setups just enable public access on the bucket, which works but means anyone can hit the S3 endpoint directly and skip CloudFront entirely. The OAC approach keeps the bucket private — only CloudFront can read from it.
 
 ## Screenshots
 
